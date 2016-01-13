@@ -924,5 +924,24 @@
 		<zop></zop>
 		<qop></qop>
 		<sop></sop>
+    </onlinemapsource>
+    <onlinemapsource uid="2507">
+        <name>国土地理院-簡易空中写真2004年～ (JP)</name>
+		<url><![CDATA[http://cyberjapandata.gsi.go.jp/xyz/airphoto/{$z}/{$x}/{$y}.png]]></url>
+		<website><![CDATA[<a href="http://maps.gsi.go.jp/development/ichiran.html">国土地理院</a>]]></website>
+		<minzoom>5</minzoom>
+		<maxzoom>18</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<servers></servers>
+		<httpparam name=""></httpparam>
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop></xop>
+		<yop></yop>
+		<zop></zop>
+		<qop></qop>
+		<sop></sop>
 	</onlinemapsource>
 </onlinemapsources>
