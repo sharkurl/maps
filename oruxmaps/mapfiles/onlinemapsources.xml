@@ -929,7 +929,7 @@
         <name>国土地理院-簡易空中写真2004年～ (JP)</name>
 		<url><![CDATA[http://cyberjapandata.gsi.go.jp/xyz/airphoto/{$z}/{$x}/{$y}.png]]></url>
 		<website><![CDATA[<a href="http://maps.gsi.go.jp/development/ichiran.html">国土地理院</a>]]></website>
-		<minzoom>5</minzoom>
+		<minzoom>15</minzoom>
 		<maxzoom>18</maxzoom>
 		<projection>MERCATORESFERICA</projection>
 		<servers></servers>
