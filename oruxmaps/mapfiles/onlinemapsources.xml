@@ -62,8 +62,8 @@
 	</onlinemapsource>
 	
 	<onlinemapsource uid="12">
-		<name>Statkart Toporaster 2 (NO)</name>
-		<url><![CDATA[http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster2&zoom={$z}&x={$x}&y={$y}]]></url>
+		<name>Statkart Toporaster 3 (NO)</name>
+		<url><![CDATA[http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster3&zoom={$z}&x={$x}&y={$y}]]></url>
 		<website><![CDATA[<a href="http://statkart.no">statkart.no</a>]]></website>
 		<minzoom>0</minzoom>
 		<maxzoom>17</maxzoom>
@@ -447,9 +447,26 @@
 		<sop></sop>
 	</onlinemapsource>
     
-	<onlinemapsource uid="972">
+<onlinemapsource uid="972">
 	  <name>Israel Hiking Map (IL)</name>
-	  <url><![CDATA[http://osm.org.il/IsraelHiking/Tiles/{$z}/{$x}/{$y}.png]]></url>
+      <url><![CDATA[http://IsraelHiking.osm.org.il/Tiles/{$z}/{$x}/{$y}.png]]></url>
+      <website><![CDATA[<a href="http://IsraelHiking.osm.org.il">Israel Hiking Map</a>]]></website>
+      <minzoom>7</minzoom>
+      <maxzoom>16</maxzoom>
+      <projection>MERCATORESFERICA</projection>
+      <servers></servers>
+      <httpparam name=""></httpparam>
+      <cacheable>1</cacheable>
+      <downloadable>1</downloadable>
+      <xop></xop>
+      <yop></yop>
+      <zop></zop>
+      <qop></qop>
+    </onlinemapsource>
+    <onlinemapsource uid="9722">
+      <name>Israel MTB Map (IL)</name>
+      <url><![CDATA[http://IsraelHiking.osm.org.il/mtbTiles/{$z}/{$x}/{$y}.png]]></url>
+      <website><![CDATA[<a href="http://israelhiking.osm.org.il/IsraelMTBmap.html">Israel MTB Map</a>]]></website>
 	  <minzoom>7</minzoom>
 	  <maxzoom>16</maxzoom>
 	  <projection>MERCATORESFERICA</projection>
@@ -585,7 +602,87 @@
 		<qop></qop>
 		<sop></sop>
     </onlinemapsource>
-        <onlinemapsource uid="1501"> 
+	
+	<onlinemapsource uid="414">
+		<name>OpenTopoMap</name>
+		<url><![CDATA[http://{$s}.tile.opentopomap.org/{$z}/{$x}/{$y}.png]]></url>
+		<website><![CDATA[Kartendaten: © <a href="https://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>-Mitwirkende, SRTM | Kartendarstellung: © <a href="http://opentopomap.org/" target="_blank">OpenTopoMap</a>]]></website>
+		<minzoom>7</minzoom>
+		<maxzoom>15</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<servers>a,b,c</servers>
+		<httpparam name="User-Agent">{om}</httpparam>
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop></xop>
+		<yop></yop>
+		<zop></zop>
+		<qop></qop>
+		<sop></sop>
+	</onlinemapsource>
+	
+	
+	<onlinemapsource uid="514">
+		<name>Mapa Base IGN (ES)</name>
+		<url><![CDATA[http://www.ign.es/wmts/ign-base?request=getTile&layer=IGNBaseTodo&TileMatrixSet=GoogleMapsCompatible&TileMatrix={$z}&TileCol={$x}&TileRow={$y}&format=image/jpeg]]></url>
+		<website><![CDATA[<a href="https://www.cnig.es/" target="_blank">Instituto Geográfico Nacional (ES)</a>]]></website>
+		<minzoom>1</minzoom>
+		<maxzoom>19</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<servers></servers>
+		<httpparam name="User-Agent">{om}</httpparam>
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop></xop>
+		<yop></yop>
+		<zop></zop>
+		<qop></qop>
+		<sop></sop>
+	</onlinemapsource>
+	<onlinemapsource uid="515">
+	<name>Imagen IGN (ES)</name>
+		<url><![CDATA[http://www.ign.es/wmts/pnoa-ma?request=getTile&layer=OI.OrthoimageCoverage&TileMatrixSet=GoogleMapsCompatible&TileMatrix={$z}&TileCol={$x}&TileRow={$y}&format=image/jpeg]]></url>
+		<website><![CDATA[<a href="https://www.cnig.es/" target="_blank">Instituto Geográfico Nacional (ES)</a>]]></website>
+		<minzoom>1</minzoom>
+		<maxzoom>19</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<servers></servers>
+		<httpparam name="User-Agent">{om}</httpparam>
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop></xop>
+		<yop></yop>
+		<zop></zop>
+		<qop></qop>
+		<sop></sop>
+	</onlinemapsource>
+	<onlinemapsource uid="516">
+	<name>Mapa Raster IGN (ES)</name>
+		<url><![CDATA[http://www.ign.es/wmts/mapa-raster?request=getTile&layer=MTN&TileMatrixSet=GoogleMapsCompatible&TileMatrix={$z}&TileCol={$x}&TileRow={$y}&format=image/jpeg]]></url>
+		<website><![CDATA[<a href="https://www.cnig.es/" target="_blank">Instituto Geográfico Nacional (ES)</a>]]></website>
+		<minzoom>1</minzoom>
+		<maxzoom>18</maxzoom>
+		<projection>MERCATORESFERICA</projection>
+		<servers></servers>
+		<httpparam name="User-Agent">{om}</httpparam>
+		<cacheable>1</cacheable>
+		<downloadable>1</downloadable>
+		<maxtilesday>0</maxtilesday>
+		<maxthreads>0</maxthreads>
+		<xop></xop>
+		<yop></yop>
+		<zop></zop>
+		<qop></qop>
+		<sop></sop>
+	</onlinemapsource>
+	<!-- BEGIN of customization -->
+    <onlinemapsource uid="1501"> 
         <name>2001-地圖產生器 TWMAP 25000:1 (TW)</name> 
         <url><![CDATA[http://rs.happyman.idv.tw/map/tw25k2001/zxy/{$z}_{$x}_{$y}.png]]></url> 
         <minzoom>11</minzoom> 
@@ -944,4 +1041,5 @@
 		<qop></qop>
 		<sop></sop>
 	</onlinemapsource>
+	<!-- END of customization -->
 </onlinemapsources>
