@@ -699,7 +699,24 @@
         <qop></qop> 
         <sop></sop> 
     </onlinemapsource>
-    	<onlinemapsource uid="1511">
+    <onlinemapsource uid="1502"> 
+        <name>2001-地圖產生器 TW5K 5000:1 (TW)</name> 
+        <url><![CDATA[http://210.59.147.238/~happyman/tw5k/{$z}/{$x}/{$y}.png]]></url> 
+        <minzoom>10</minzoom> 
+        <maxzoom>17</maxzoom> 
+        <projection>MERCATORESFERICA</projection> 
+        <httpparam name=""></httpparam> 
+        <cacheable>1</cacheable> 
+        <downloadable>1</downloadable> 
+        <maxtilesday>0</maxtilesday> 
+        <maxthreads>0</maxthreads> 
+        <xop></xop> 
+        <yop></yop> 
+        <zop></zop> 
+        <qop></qop> 
+        <sop></sop> 
+    </onlinemapsource>
+    <onlinemapsource uid="1511">
 		<name>2001-臺灣經建3版地形圖-1:25,000 (TW)</name>
 		<url><![CDATA[http://gis.sinica.edu.tw/tileserver/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=TM25K_2001&STYLE=_null&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={$z}&TILEROW={$y}&TILECOL={$x}&FORMAT=image/jpeg]]></url>
 		<website><![CDATA[<a href="http://gis.sinica.edu.tw/tileserver/">Academia Sinica WMTS</a>]]></website>
