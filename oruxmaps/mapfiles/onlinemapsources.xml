@@ -128,7 +128,7 @@
     </onlinemapsource>
 	<onlinemapsource uid="1531">
 		<name>0000-國土繪測通用版電子地圖 (TW)</name>
-		<url><![CDATA[http://maps.nlsc.gov.tw/S_Maps/wmts/EMAP/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
+		<url><![CDATA[http://wmts.nlsc.gov.tw/wmts/EMAP/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
 		<website><![CDATA[<a href="http://www.nlsc.gov.tw">NLSC</a>]]></website>
 		<minzoom>7</minzoom>
 		<maxzoom>19</maxzoom>
@@ -147,7 +147,7 @@
     </onlinemapsource>
     <onlinemapsource uid="1532">
         <name>0000-國土繪測通用版電子地圖透明 (TW)</name>
-        <url><![CDATA[http://maps.nlsc.gov.tw/S_Maps/wmts/EMAP2/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
+        <url><![CDATA[http://wmts.nlsc.gov.tw/wmts/EMAP2/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
 		<website><![CDATA[<a href="http://www.nlsc.gov.tw">NLSC</a>]]></website>
 		<minzoom>9</minzoom>
 		<maxzoom>19</maxzoom>
@@ -166,7 +166,7 @@
     </onlinemapsource>
     <onlinemapsource uid="1533">
         <name>0000-國土繪測正射影像圖(通用版) (TW)</name>
-        <url><![CDATA[http://maps.nlsc.gov.tw/S_Maps/wmts/PHOTO2/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
+        <url><![CDATA[http://wmts.nlsc.gov.tw/wmts/PHOTO2/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
 		<website><![CDATA[<a href="http://www.nlsc.gov.tw">NLSC</a>]]></website>
 		<minzoom>7</minzoom>
 		<maxzoom>19</maxzoom>
@@ -185,7 +185,7 @@
     </onlinemapsource>
 	<onlinemapsource uid="1534">
 		<name>0000-臺灣通用電子地圖(含等高線)開放資料 (TW)</name>
-		<url><![CDATA[http://maps.nlsc.gov.tw/S_Maps/wmts/EMAP5_OPENDATA/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
+		<url><![CDATA[http://wmts.nlsc.gov.tw/wmts/EMAP5_OPENDATA/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
 		<website><![CDATA[<a href="http://maps.nlsc.gov.tw">NLSC</a>]]></website>
 		<minzoom>7</minzoom>
 		<maxzoom>15</maxzoom>
@@ -204,7 +204,7 @@
 	</onlinemapsource>
 	<onlinemapsource uid="1535">
 		<name>0000-臺灣通用電子地圖(含等高線) (TW)</name>
-		<url><![CDATA[http://maps.nlsc.gov.tw/S_Maps/wmts/EMAP5/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
+		<url><![CDATA[http://wmts.nlsc.gov.tw/wmts/EMAP5/default/EPSG:3857/{$z}/{$y}/{$x}]]></url>
 		<website><![CDATA[<a href="http://maps.nlsc.gov.tw">NLSC</a>]]></website>
 		<minzoom>7</minzoom>
 		<maxzoom>18</maxzoom>
